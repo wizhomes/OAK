@@ -1,0 +1,8 @@
+{
+  "name": "Oak Specialist Hospital",
+  "description": "A world-class premium healthcare facility providing specialist medical services with trust and excellence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
