@@ -2,10 +2,10 @@
   "version": 2,
   "builds": [
     {
-      "src": "oak-specialist-hospital/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist"
+        "distDir": "oak-specialist-hospital/dist"
       }
     }
   ],

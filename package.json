@@ -1,0 +1,11 @@
+{
+  "name": "oak-app-root",
+  "private": true,
+  "workspaces": [
+    "oak-specialist-hospital"
+  ],
+  "scripts": {
+    "build": "cd oak-specialist-hospital && npm run build && rm -rf ../dist || true && cp -r dist ../dist",
+    "vercel-build": "npm run build"
+  }
+}
