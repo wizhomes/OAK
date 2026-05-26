@@ -19,17 +19,14 @@ import {
   MoveRight
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import homepage1 from '../assets/images/HOMEPAGE 1.webp';
-import homepage2 from '../assets/images/HOMEPAGE 2.jpg';
-import homepage3 from '../assets/images/HOMEPAGE 3.webp';
 
 // Hero component
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const backgroundImages = [
-    homepage1,
-    homepage2,
-    homepage3
+    '/images/HOMEPAGE-1.webp',
+    '/images/HOMEPAGE-2.jpg',
+    '/images/HOMEPAGE-3.webp'
   ];
 
   useEffect(() => {

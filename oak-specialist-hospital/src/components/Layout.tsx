@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Heart, Stethoscope, Clock, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, Search, Menu, X, User, Globe, Moon, Sun } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
-import Logo from '../assets/images/LOGO.png';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
@@ -53,7 +52,7 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-white/95 backdrop-blur-md shadow-md py-2 text-slate-900' : 'bg-transparent py-4 text-white'}`}>
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group h-8 md:h-12">
-          <img src={Logo} alt="Oak Hospital Logo" className="h-full w-auto object-contain" referrerPolicy="no-referrer" />
+          <img src="/images/LOGO.png" alt="Oak Hospital Logo" className="h-full w-auto object-contain" referrerPolicy="no-referrer" />
         </Link>
 
         {/* Desktop Nav */}
@@ -108,7 +107,7 @@ const Header = () => {
             {/* Header in Overlay */}
             <div className="flex items-center justify-between mb-8">
               <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>
-                <img src={Logo} alt="Logo" className="h-10 w-auto object-contain" />
+                <img src="/images/LOGO.png" alt="Logo" className="h-10 w-auto object-contain" />
               </Link>
               <button 
                 onClick={() => setIsMobileMenuOpen(false)} 
