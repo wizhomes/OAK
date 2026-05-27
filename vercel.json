@@ -8,11 +8,5 @@
         "distDir": "oak-specialist-hospital/dist"
       }
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
   ]
 }
