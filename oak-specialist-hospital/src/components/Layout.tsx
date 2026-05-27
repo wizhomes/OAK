@@ -174,9 +174,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="flex flex-col gap-6">
-             <Link to="/" className="flex items-center gap-2 h-12">
-              <img src={Logo} alt="Oak Hospital Logo" className="h-full w-auto object-contain" referrerPolicy="no-referrer" />
-            </Link>
+              <Link to="/" className="flex items-center gap-2 h-12">
+               <img src="/images/LOGO.png" alt="Oak Hospital Logo" className="h-full w-auto object-contain" referrerPolicy="no-referrer" />
+             </Link>
             <p className="text-sm leading-relaxed max-w-sm">
               Providing compassionate, world-class healthcare with the latest medical technology and the most experienced specialists in Ghana.
             </p>
